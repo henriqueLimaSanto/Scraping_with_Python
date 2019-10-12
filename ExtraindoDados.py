@@ -24,7 +24,7 @@ def getElementWEb(url):
         titulo = bsObj.html
         return titulo
     except:
-        print("Ocorreu um erro no conteudo da pagina")
+        print("Ocorreu novo um erro no conteudo da pagina")
         return None
 
 
